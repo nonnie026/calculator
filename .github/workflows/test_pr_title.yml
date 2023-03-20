@@ -11,6 +11,8 @@ on:
 jobs:
   test-pr-title:
     runs-on: ubuntu-latest
+    permissions:
+      statuses: write
     steps:
       - name: Conventional PR Title Checker
         uses: aslafy-z/conventional-pr-title-action@v3
