@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Conventional PR Title Checker
-        uses: aslafy-z/conventional-pr-title-action@master
+        uses: aslafy-z/conventional-pr-title-action@v3
         with:
           success-state: PR title follows the standard
           failure-state: Please conform to PR title standard
